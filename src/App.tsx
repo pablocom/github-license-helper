@@ -1,8 +1,8 @@
-import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const clientId = "e2475c9bf2dc410d31a6";
   return (
     <div className="App">
       <header className="App-header">
@@ -12,11 +12,9 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+          href="https://github.com/login/oauth/authorize?client_id=e2475c9bf2dc410d31a6"
         >
-          Learn React
+          Log in with Github
         </a>
       </header>
     </div>
